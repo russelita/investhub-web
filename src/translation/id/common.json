@@ -1,0 +1,12 @@
+{
+  "error": {
+    "errorServer": "Gagal koneksikan ke server. kode",
+    "noData": "Tidak Ada Data",
+    "titleModalFailed": "Gagal",
+    "continueFailed": "Gagal Melanjutkan",
+    "uploadFailed": "Upload Gagal",
+    "paymentFailed": "Pembayaran Gagal",
+    "processFailed": "Proses Gagal",
+    "accessFailed": "Akses Gagal"
+  }
+}

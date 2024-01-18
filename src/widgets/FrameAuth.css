@@ -1,0 +1,24 @@
+.right-screen {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #ffffff;
+}
+
+.frame-hero-container {
+  width: 100%;
+  height: 100%;
+}
+
+.frame-hero-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-flag-float {
+  position: absolute;
+  right: 100px;
+  top: 65px;
+  padding: 10px 12px;
+  height: 20px;
+  width: 35px;
+}

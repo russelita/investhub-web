@@ -1,0 +1,19 @@
+.container-split {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.left-screen {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.container-header-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

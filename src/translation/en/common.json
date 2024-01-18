@@ -1,0 +1,12 @@
+{
+  "error": {
+    "errorServer": "Failed connect to server. code",
+    "noData": "No Data",
+    "titleModalFailed": "Failed",
+    "continueFailed": "Continue Failed",
+    "uploadFailed": "Upload Failed",
+    "paymentFailed": "Payment Failed",
+    "processFailed": "Process Failed",
+    "accessFailed": "Access Failed"
+  }
+}

@@ -1,0 +1,27 @@
+.container-title-emailConfirm {
+  margin-top: 70.5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 47.5px;
+}
+
+.text-redEmail {
+  color: var(--Primary, #9f0e0f);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-title-infoConfirmEmail {
+  text-align: center;
+}
+
+.group-button-emailConfirm {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}

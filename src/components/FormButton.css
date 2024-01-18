@@ -1,0 +1,25 @@
+.form-button {
+  width: 100%;
+}
+
+.form-button__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #9f0e0f;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 36px;
+  width: 100%;
+}
+
+.form-button__button i {
+  margin-left: 10px;
+}
