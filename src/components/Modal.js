@@ -1,6 +1,6 @@
 import React from "react";
 import "./Modal.css";
-import IconSuccess from "../assets/images/ic_round-check-circle.png";
+import IconSuccess from "../assets/images/ic_round-check-circle.webp";
 import IconEmailSent from "../assets/images/icon_emailConfirm.webp";
 
 function Modal({ handleHiddenModal, title, desc, btn1, btn2, emailSent }) {

@@ -15,7 +15,7 @@ function FooterAuth({ backToLogin, hiddenButton, hiddenLineOr }) {
           <div className="group-info-secure"></div>
         ) : (
           <div className="group-info-secure">
-            <i class="fa fa-lock" aria-hidden="true"></i>
+            <i className="fa fa-lock" aria-hidden="true"></i>
             {"Your Info is safely secured"}
           </div>
         )}

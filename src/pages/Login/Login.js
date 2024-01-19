@@ -7,8 +7,25 @@ import FormInput from "../../components/FormInput";
 import FormButton from "../../components/FormButton";
 import FooterAuth from "../../components/FooterAuth";
 
+const initialAuthState = {
+  loading: true,
+  isLogin: false,
+  isProfileUpdated: false,
+  user: null,
+  initialRoute: "Home",
+  token: null,
+  fcmToken: null,
+};
+
 function Login() {
   const navigate = useNavigate();
+
+  const handleLogin = () => {
+    let temp = initialAuthState;
+    temp.isLogin = true;
+    localStorage.setItem("dataUser", JSON.stringify(temp));
+    navigate("/update-profile");
+  };
   return (
     <>
       <div className="container-split">
@@ -47,7 +64,7 @@ function Login() {
 
             <FormButton
               className={"form-button-login"}
-              onClick={() => navigate("/")}
+              onClick={handleLogin}
               title={"Login"}
               type={"submit"}
             />

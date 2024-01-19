@@ -12,7 +12,7 @@ function FormButton({ className, title, type, onClick, input, hiddenIcon }) {
       >
         {title}
         {hiddenIcon ? null : (
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          <i className="fa fa-arrow-right" aria-hidden="true"></i>
         )}
       </button>
     </div>

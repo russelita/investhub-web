@@ -1,0 +1,23 @@
+.form-input__radio {
+  display: flex;
+  max-height: 62px;
+  width: 90%;
+  margin-top: 11px;
+}
+
+.form-input__radio__text {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  width: 191px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form-input__radio__text input {
+  accent-color: #9f0e0f;
+}

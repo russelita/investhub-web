@@ -1,0 +1,11 @@
+.nav-button-avatar {
+  display: flex;
+  border-radius: 100px;
+  background-color: #e8e8e8;
+  padding: 12px 10px;
+  gap: 8px;
+  max-width: 117px;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+}
