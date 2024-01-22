@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="footer-section">
       <div className="footer-content">
-        <div className="footer-widget">
+        <div className="footer-widget footer-widget-padding">
           <div className="footer-logo">
             <img
               src={iconLogo}
@@ -23,7 +23,7 @@ function Footer() {
           <div className="text-contact">{"Contact Us"}</div>
           <div className="text-address-idx">
             {
-              "Indonesia Stock Exchange Building, Tower 1, 6th FloorJl. Jend. Sudirman Kav 52-53 Jakarta Selatan 12190, Indonesia"
+              "Indonesia Stock Exchange Building, Tower 1, 6th Floor Jl. Jend. Sudirman Kav 52-53 Jakarta Selatan 12190, Indonesia"
             }
           </div>
           <div className="text-emailfooter-idx">

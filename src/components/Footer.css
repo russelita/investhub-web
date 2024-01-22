@@ -1,3 +1,9 @@
+.footer-content {
+  padding: 16px 72px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
 .group-btn-sosmed-footer {
   display: flex;
   gap: 19px;
@@ -44,14 +50,12 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.footer-widget-padding {
+  padding-right: 24px;
+}
 .footer-section {
   background: #ffffff;
   position: relative;
-}
-.footer-content {
-  padding: 16px 90px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 .footer-logo {
   margin-bottom: 7px;

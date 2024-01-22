@@ -62,7 +62,7 @@ const groupLearning = [
   },
 ];
 
-function Navbar({ isLogin }) {
+function Navbar() {
   const navigate = useNavigate();
   const [user, setUser] = React.useState("");
   const [myProfile, setMyProfile] = React.useState(false);

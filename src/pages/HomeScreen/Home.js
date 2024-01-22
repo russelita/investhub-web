@@ -5,6 +5,18 @@ import IconGetStarted from "../../assets/images/icon_getStarted.webp";
 import "./Home.css";
 
 function Home() {
+  const [user, setUser] = React.useState("");
+
+  React.useEffect(() => {
+    cekUser();
+  }, []);
+
+  const cekUser = async () => {
+    const userState = await JSON.parse(localStorage.getItem("dataUser"));
+    if (userState) {
+      setUser(userState);
+    }
+  };
   return (
     <>
       <div className="hero-container">
@@ -74,17 +86,21 @@ function Home() {
       </div>
 
       <div className="container-body">
-        {/* searching */}
-        <div className="search-container">
-          <input
-            type="text"
-            name="Search course here"
-            id="input-search"
-            className="input-search"
-            placeholder="Search course here"
-          />
-          <img src={IconSearch} alt="ic-search" className="ic-search" />
-        </div>
+        {user.isLogin && (
+          <>
+            {/* searching */}
+            <div className="search-container">
+              <input
+                type="text"
+                name="Search course here"
+                id="input-search"
+                className="input-search"
+                placeholder="Search course here"
+              />
+              <img src={IconSearch} alt="ic-search" className="ic-search" />
+            </div>
+          </>
+        )}
       </div>
     </>
   );

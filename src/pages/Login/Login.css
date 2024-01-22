@@ -76,6 +76,10 @@
   margin-top: 40px;
 }
 
+.form-input-top {
+  margin-top: 32px;
+}
+
 .form-input-password {
   margin-top: 24px;
 }
@@ -95,4 +99,14 @@
 
 .form-button-login {
   margin-top: 32px;
+}
+
+.error {
+  color: #9f0e0f;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
 }

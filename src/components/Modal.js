@@ -21,11 +21,17 @@ function Modal({ handleHiddenModal, title, desc, btn1, btn2, emailSent }) {
           </div>
           <div className="modalContent">{desc}</div>
           <div className="modalActions">
-            <button className="deleteBtn" onClick={handleHiddenModal}>
+            <button
+              className="deleteBtn"
+              onClick={() => handleHiddenModal(btn1)}
+            >
               {btn1}
             </button>
             {btn2 ? (
-              <button className="cancelBtn" onClick={handleHiddenModal}>
+              <button
+                className="cancelBtn"
+                onClick={() => handleHiddenModal(btn2)}
+              >
                 {btn2}
               </button>
             ) : null}

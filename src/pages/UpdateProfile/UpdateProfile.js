@@ -364,25 +364,25 @@ function UpdateProfile() {
               {"Complete your data according to the fields below"}
             </div>
             <FormInput
-              className={"form-input-email"}
+              className={"form-input-top"}
               placeholder={"Enter Full Name"}
               title={"Full Name"}
               type={"text"}
             />
             <FormInput
-              className={"form-input-email"}
+              className={"form-input-password"}
               placeholder={"Select Date of Birth"}
               title={"Date of Birth"}
               type={"date"}
             />
             <FormInput
-              className={"form-input-email"}
+              className={"form-input-password"}
               placeholder={"Enter Phone Number"}
               title={"Phone Number"}
               type={"number"}
             />
             <FormRadioInput
-              className={"form-input-email"}
+              className={"form-input-password"}
               title={"Gender"}
               handleChangeRadio={handleChangeRadio}
               checked={optionGender}
