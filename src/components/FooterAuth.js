@@ -6,6 +6,7 @@ import IconTicmi from "../assets/images/TICMI_Logo.webp";
 import IconRDIS from "../assets/images/RDIS_Logo.webp";
 import IconGoogle from "../assets/images/Google_Logo.webp";
 import { Link } from "react-router-dom";
+import { MdLock } from "react-icons/md";
 
 function FooterAuth({ backToLogin, hiddenButton, hiddenLineOr }) {
   return (
@@ -15,7 +16,7 @@ function FooterAuth({ backToLogin, hiddenButton, hiddenLineOr }) {
           <div className="group-info-secure"></div>
         ) : (
           <div className="group-info-secure">
-            <i className="fa fa-lock" aria-hidden="true"></i>
+            <MdLock className="group-info-secure-lock" />
             {"Your Info is safely secured"}
           </div>
         )}

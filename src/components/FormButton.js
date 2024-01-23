@@ -1,5 +1,6 @@
 import React from "react";
 import "./FormButton.css";
+import { FaArrowRight } from "react-icons/fa6";
 
 function FormButton({ className, title, type, onClick, input, hiddenIcon }) {
   return (
@@ -12,7 +13,7 @@ function FormButton({ className, title, type, onClick, input, hiddenIcon }) {
       >
         {title}
         {hiddenIcon ? null : (
-          <i className="fa fa-arrow-right" aria-hidden="true"></i>
+          <FaArrowRight className="form-button__button_arrow" />
         )}
       </button>
     </div>

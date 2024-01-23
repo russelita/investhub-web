@@ -13,6 +13,7 @@ import iconEbook from "../assets/images/icon_eBook.webp";
 import iconDiscuss from "../assets/images/icon_discussion.webp";
 import iconGlossarium from "../assets/images/icon_glossarium.webp";
 import iconLevelup from "../assets/images/icon_level_star.webp";
+import { IoIosArrowDown } from "react-icons/io";
 
 const groupMyProfile = [
   {
@@ -94,7 +95,7 @@ function Navbar() {
             <Link onClick={() => setLearning(!learning)} className="nav-link">
               Learning
             </Link>
-            <i className="fa fa-angle-down ic-learning" aria-hidden="true" />
+            <IoIosArrowDown className="ic-learning" />
           </li>
           <li className="nav-item">
             <Link to="/" className="nav-link">

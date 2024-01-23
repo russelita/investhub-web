@@ -1,6 +1,7 @@
 import React from "react";
 import IconAvatar from "../assets/images/avatar.png";
 import "./ButtonUserAvatar.css";
+import { IoIosArrowDown } from "react-icons/io";
 
 function ButtonUserAvatar({ className, user, setMyProfile, myProfile }) {
   return (
@@ -10,7 +11,7 @@ function ButtonUserAvatar({ className, user, setMyProfile, myProfile }) {
     >
       <img src={IconAvatar} alt="flag-icon" className="flag-icon" />
       {user}
-      <i className="fa fa-angle-down ic-flag" aria-hidden="true" />
+      <IoIosArrowDown className="ic-flag" />
     </div>
   );
 }

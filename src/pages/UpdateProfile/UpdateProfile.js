@@ -10,6 +10,9 @@ import iconCircleGreen from "../../assets/images/ic_round-check-circle-green.web
 import iconCD from "../../assets/images/icon_cd.webp";
 import DropDownList from "../../components/DropDownList";
 import { useSpring, animated } from "@react-spring/web";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Preferences = [
   {
@@ -486,10 +489,7 @@ function UpdateProfile() {
                     onClick={handlePrevExcersice}
                     className="btnNext-preliminary"
                   >
-                    <i
-                      className="fa fa-angle-left fa-fw ic-next-preliminary"
-                      aria-hidden="true"
-                    ></i>
+                    <IoIosArrowBack className="ic-next-preliminary" />
                   </div>
                 )}
                 <animated.div
@@ -498,20 +498,14 @@ function UpdateProfile() {
                   className="btnDropdown-scroll"
                 >
                   Prem Test
-                  <i
-                    className="fa fa-angle-down ic-learning"
-                    aria-hidden="true"
-                  />
+                  <IoIosArrowDown className="ic-learning" />
                 </animated.div>
                 {indexSoal !== groupLearning.length - 1 && (
                   <div
                     onClick={handleNextExcersice}
                     className="btnNext-preliminary"
                   >
-                    <i
-                      className="fa fa-angle-right fa-fw ic-next-preliminary"
-                      aria-hidden="true"
-                    ></i>
+                    <IoIosArrowForward className="ic-next-preliminary" />
                   </div>
                 )}
               </div>
