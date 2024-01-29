@@ -470,7 +470,7 @@ function UpdateProfile() {
             <div className="container-preliminary">
               <div className="container-top-preliminary">
                 <div className="group-preliminary-text">
-                  <div className="text-title">{"Preliminary Test"}</div>
+                  <div className="text-title">{"Placement Test"}</div>
                   <div className="text-title-info">
                     {"Choose the answer that suits you"}
                   </div>
